@@ -1,0 +1,61 @@
+/*--- ======Theme Css ====== ------*/
+body{
+	font-family: 'Poppins', sans-serif;
+}
+/*--- ======header Section ====== ------*/
+.active{
+	color: red !important;
+}
+.social-icon a:hover{
+	background-color: royalblue !important;
+	color: #fff !important;
+	border:2px solid transparent !important;
+}
+.btn-primary{
+	background: #2500f9 !important;
+	transition:.5s ;
+}
+.btn-primary:hover{
+	background: transparent !important;
+	border:1px solid #2500f9;
+	color: #2500f9 !important;
+}
+.btn-outline-primary:hover{
+	background: #2500f9 !important;
+}
+#slider{
+	background: url(../images/slider-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*-- == prize Part == --*/
+.my-owl-nav{
+    margin-bottom: 60px;
+    z-index: 9999;
+}
+/*-- == prize Part == --*/
+.btn:focus{
+	box-shadow: none !important;
+}
+nav .nav :nth-child(2) {
+    margin-left: -30px;
+}
+nav .nav .active{
+	background:  #2500f9 !important;
+	color: white !important;
+	z-index: 999999;
+}
+/*-- == Footer Part == --*/
+footer .nav-item a{
+	transition: all .5s;
+}
+.nav-item a:hover{
+	color: rgb(240, 20, 20) !important;
+}
+footer .nav-link i{
+	transition: .3s;
+}
+a i:hover{
+	transform: scale(1.5);
+	color: rgb(0, 238, 255) !important;
+}
